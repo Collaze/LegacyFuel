@@ -1,20 +1,17 @@
-fx_version 'bodacious'
+fx_version 'cerulean'
 game 'gta5'
 
-author 'InZidiuZ'
-description 'Legacy Fuel'
-version '1.3'
+author 'InZidiuZ (Updated by: Collaze)'
+description 'Legacy Fuel Reimaged'
+version '2.0 in-dev'
 
--- What to run
 client_scripts {
 	'config.lua',
-	'functions/functions_client.lua',
-	'source/fuel_client.lua'
+	'client/*.lua'
 }
-
 server_scripts {
 	'config.lua',
-	'source/fuel_server.lua'
+	'server/*.lua'
 }
 
 exports {
